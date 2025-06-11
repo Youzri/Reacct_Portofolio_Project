@@ -5,6 +5,7 @@ import Contacts from './pages/Contacts'
 import Projects from './pages/projects'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import React from 'react';
 
 
 function App() {
@@ -13,11 +14,7 @@ function App() {
       <Navbar />
         <main className="flex-grow">
           <Routes>
-<<<<<<< HEAD
             <Route path="/" element={<Home />} />
-=======
-            <Route path="/Reacct_Portofolio_Project" element={<Home />} />
->>>>>>> a3776e1dcd24c8b9bc6f9e54c264eb38e8fa7d34
             <Route path="/about" element={<About />} />
             <Route path='/contacts' element={<Contacts />} />
             <Route path='/projects' element={<Projects />} />
