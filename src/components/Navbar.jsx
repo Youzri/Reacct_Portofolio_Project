@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="flex-1">
             <div className="flex items-center gap-2">
                 <NavLink to="/" className="flex items-center gap-2 text-3xl font-extrabold text-primary tracking-tight">
-                    <img src="/Untitled design.png" alt="Logo" className="w-8 h-8 shadow-lg transition-transform duration-300 hover:scale-110 rounded" />
+                    <img src="/public/logo.png" alt="Logo" className="w-8 h-8 shadow-lg transition-transform duration-300 hover:scale-110 rounded" />
                     Ahmed Yousri
                 </NavLink>
             </div>
